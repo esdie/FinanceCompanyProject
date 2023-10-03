@@ -1,8 +1,6 @@
 package com.oracle.entity;
 
 
-@Entity
-@Table(name=customer)
 public class Customer {
 	private String customer_id;
 	private String first_name;
