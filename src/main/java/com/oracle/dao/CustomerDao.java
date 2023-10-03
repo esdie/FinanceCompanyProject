@@ -1,5 +1,6 @@
 package com.oracle.dao;
 
-public class CustomerDao {
+public interface CustomerDao {
 
+	List<Customer>addCustomer();
 }
