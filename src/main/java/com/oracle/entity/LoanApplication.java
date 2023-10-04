@@ -2,7 +2,7 @@ package com.oracle.entity;
 
 import java.sql.Date;
 
-public class Loan_Application {
+public class LoanApplication {
 	
 	private String loan_application_number;
 	private String customer_id;
@@ -15,7 +15,7 @@ public class Loan_Application {
 	private Date application_date;
 	private String application_status;
 	private String branch;
-	public Loan_Application(String loan_application_number, String customer_id, String loan_id, String clerk_id,
+	public LoanApplication(String loan_application_number, String customer_id, String loan_id, String clerk_id,
 			String first_name, String last_name, int requested_amount, int requested_tenure, Date application_date,
 			String application_status, String branch) {
 		super();
@@ -31,7 +31,7 @@ public class Loan_Application {
 		this.application_status = application_status;
 		this.branch = branch;
 	}
-	public Loan_Application() {
+	public LoanApplication() {
 		
 	}
 	public String getLoan_application_number() {

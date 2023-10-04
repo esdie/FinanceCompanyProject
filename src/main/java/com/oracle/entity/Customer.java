@@ -1,6 +1,7 @@
 package com.oracle.entity;
 
 
+
 public class Customer {
 	private String customer_id;
 	private String first_name;
