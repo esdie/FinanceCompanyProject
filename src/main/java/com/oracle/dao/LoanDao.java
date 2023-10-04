@@ -13,7 +13,7 @@ public interface LoanDao {
 	Optional<LoanApplication> findByLoanType(String LoanType);
 	Optional<LoanApplication> findByDate(Date date);
 	 Optional<LoanApplication> searchLoanApplicationByNumber(String loan_application_number);
-	 Optional<LoanApplication> searchLoanApplicationByType(int type_code);
+	 Optional<LoanApplication> searchLoanApplicationByType(String type_code);
 	 public LoanApplication applyLoan(LoanApplication la);
 
 }
